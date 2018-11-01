@@ -16,6 +16,6 @@ Sample Output:
 Hello Ken McGrady!
 
 
-      function greet(firstName, lastName){
-          return("Hello "+firstName+" "+lastName+"!");
-      }
+                  function greet(firstName, lastName){
+                      return("Hello "+firstName+" "+lastName+"!");
+                  }
