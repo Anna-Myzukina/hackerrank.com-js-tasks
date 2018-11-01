@@ -1,0 +1,21 @@
+Write a function named greet, which takes in two parameters
+
+firstName - Name of the first name
+lastName - Name of the last name
+The function will return the string, "Hello firstName lastName!" with the value of firstName and lastName as specified.
+
+Example
+
+greet('Ken', 'McGrady') // produces 'Hello Ken McGrady!'
+
+Sample Input:
+
+Ken McGrady
+Sample Output:
+
+Hello Ken McGrady!
+
+
+      function greet(firstName, lastName){
+          return("Hello "+firstName+" "+lastName+"!");
+      }
