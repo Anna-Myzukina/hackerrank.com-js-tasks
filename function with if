@@ -1,0 +1,28 @@
+Write a function named
+commaList
+, that has the following parameters:
+item1 - a string
+item2 - a string
+item3 - a string
+useOxfordComma - a boolean
+The function should produce the string of the item list. If the oxford comma is True, return "item1, item2, and item3". If the oxford comma is false, return "item1, item2 and item3".
+
+Examples
+
+commaList('Huey', 'Dewey', 'Louie', true) // 'Huey, Dewey, and Louie'
+commaList('Larry', 'Curly', 'Moe', false) // 'Larry, Curly and Moe'
+
+Sample Input:
+
+Huey Dewey Louie true
+Sample Output:
+
+Huey, Dewey, and Louie
+
+
+                function commaList(item1, item2, item3, useOxfordComma){
+                 if(useOxfordComma == true){
+                 return (item1 + ", "+ item2 +", and "+ item3);
+                 }else{return (item1 + ", "+ item2 +" and "+ item3);
+                      }
+                }
